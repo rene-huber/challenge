@@ -27,13 +27,6 @@ aside {
   position: relative;
 }
 
-ul {
-  width: max-content;
-}
-
-li {
-  margin: 8px 0;
-}
 aside .user {
   max-width: 250px;
   padding: 12px;
@@ -54,13 +47,12 @@ aside .user .location {
 }
 
 
-ul .user .bio {
-  display: none;
+ul {
+  width: max-content;
 }
 
-ul .user .location {
-  text-align: left;
-  color: darkslategray;
+li {
+  margin: 8px 0;
 }
 
 .user {
@@ -72,6 +64,16 @@ ul .user .location {
   max-width: 400px;
   margin: 0;
   background-color: white;
+}
+
+
+ul .user .bio {
+  display: none;
+}
+
+ul .user .location {
+  text-align: left;
+  color: darkslategray;
 }
 
 .name {
