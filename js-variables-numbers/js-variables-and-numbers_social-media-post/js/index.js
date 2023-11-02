@@ -34,3 +34,20 @@ console.log("Reported", isReported)
 likes++; 
 console.log("Add likes:", likes);
 // --^-- write your code here --^--
+
+
+
+// TIP CALCULATOR
+
+
+const mealCost = 28.74; 
+const tipPercentage = 15; 
+
+
+let tipAmount = (mealCost * tipPercentage) / 100;
+
+
+const totalCost = mealCost + tipAmount;
+
+
+console.log(`The total cost of your bill is: ${totalCost} euros`);
