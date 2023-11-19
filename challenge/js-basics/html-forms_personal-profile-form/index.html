@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Personal Profile Form</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <section>
+
+      <form data-js="form">
+        <p>We wnat to get to know you! please enter your pesonal data and credit card number with the pass</p>
+
+        <fieldset aria-labelledby="title">
+            <legend>Personal Information</legend>
+            <label for="name">First Name: </label>
+            <input
+                type="text"
+                placeholder="Batman"
+                id="name"
+                name="username"
+                maxlength="10"
+                minlength="3"
+            />
+            <label for="name">Last Name: </label>
+            <input
+                type="text"
+                placeholder=""
+                id="Lastname"
+                name="userLastname"
+                maxlength="10"
+                minlength="3"
+            />
+
+           
+
+            <label for="date">Your Birthday?</label>
+            <input
+                type="date"
+                name="date"
+                id="date"
+                
+            />
+        </fieldset>
+        <fieldset style="margin: 11px auto ;">
+          <p>Can you tell us a lil bit more? </p>
+            <legend>Further information</legend>
+
+            <label for="color-picker">Favorite color</label>
+            <input type="color" id="body" name="body" value="#f6b73c" />
+
+            <label for="friends-to-join">Whats your favorite pet?</label>
+            <select name="select-guests" id="friends-to-join">
+                <option value="alone">Dinosaurio</option>
+                <option value="cancelled">Fish </option>
+                <option value="someone">Zebra</option>
+            </select>
+
+            
+        </fieldset>
+
+       
+        <center style="margin: 21px auto ;"><input type="submit" value="Submit" /></center>
+    </form>
+
+
+    </section>
+  </body>
+</html>
