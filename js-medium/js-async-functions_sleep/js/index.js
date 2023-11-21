@@ -16,7 +16,7 @@ button3.addEventListener("click", async () => {
   icon.textContent = "💤";
   await sleep(3);
   icon.textContent = "⏰";
-  addDarkMode();
+  body.classList.add("dark");
 });
 
 button5.addEventListener("click", async () => {
