@@ -1,7 +1,5 @@
 import {linksData} from "../utils/links"
 
-
-
 export default function Links() {
   return (
     <div>

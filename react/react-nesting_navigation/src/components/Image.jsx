@@ -1,12 +1,11 @@
-import React from 'react'
+import React from "react";
 
-function Image({src, alt}) {
+function Image({ src, alt }) {
   return (
     <div>
-<img className='round-image' src= {src} alt= {alt} />
-
+      <img className="round-image" src={src} alt={alt} />
     </div>
-  )
+  );
 }
 
-export default Image
+export default Image;
