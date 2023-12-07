@@ -1,0 +1,16 @@
+.formular{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex;
+    height: 100vh;
+
+}
+
+
+.title{
+    font-size: 33px;
+    margin-bottom: 1rem;
+    color: rgb(169, 57, 57);
+text-align: center;
+}
