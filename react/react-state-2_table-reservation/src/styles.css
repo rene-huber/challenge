@@ -23,6 +23,7 @@ body {
   grid-template: "container";
   place-items: center;
   place-content: center;
+  background-color: #252629;
 }
 
 .counter__button {
