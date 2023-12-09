@@ -5,7 +5,7 @@ import Form from "./components/Form.js";
 export default function App() {
   const [user, setUser] = useState({ 
     name: "", 
-    email: "" 
+    email: ""
   });
 
   const handleCreateUser = (name, email) => {
@@ -16,7 +16,7 @@ export default function App() {
   return (
     <div className="container">
       <h1>Personal Details Form</h1>
-      <Form handleCreateUser={handleCreateUser}/>
+      <Form OnCreateUser={handleCreateUser}/>
       <h2>Your submitted details:</h2>
       <p>
         Name: <span className="output">{user.name}</span>
