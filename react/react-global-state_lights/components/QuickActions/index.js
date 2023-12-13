@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Button from "../Button";
-import useStore from '../../store'; // Importa la tienda Zustand
+import useStore from '../../store';
 
 const StyledQuickActions = styled.div`
   display: flex;

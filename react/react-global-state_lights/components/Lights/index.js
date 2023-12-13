@@ -1,7 +1,6 @@
-// Lights.js
+import useStore from '../../store.js'; 
 import styled from "styled-components";
 import Light from "../Light";
-import useStore from '../../store.js'; // Importa la tienda Zustand
 
 const StyledLights = styled.ul`
   list-style-type: none;
@@ -14,8 +13,7 @@ const StyledLights = styled.ul`
 `;
 
 export default function Lights() {
-  const { lights, toggleLight } = useStore(); // Usa la tienda
-
+  const { lights, toggleLight } = useStore()
   return (
     <StyledLights>
       {lights.map(light => (
